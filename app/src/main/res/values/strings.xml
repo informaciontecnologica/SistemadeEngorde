@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Sistema de Engorde</string>
+
+
+    <string name="tiporaza">Seleccionar raza</string>
+
+    <string-array name="razas">
+        <item>Bos taurus</item>
+        <item>Cruza</item>
+        <item>Bos indicus</item>
+
+    </string-array>
+
+    <string name="tiposexo">Seleccionar sexo</string>
+
+    <string-array name="tsexo">
+        <item>Macho</item>
+        <item>Hembra</item>
+
+    </string-array>
+
+    <string name="tipoframe">Seleccionar frame</string>
+
+    <string-array name="tframe">
+        <item>General</item>
+        <item>Novillo frame medio</item>
+        <item>Novillo Frame Grande </item>
+        <item>Hembra Frame Mediano </item>
+        <item>Hembra Frame Grande </item>
+
+
+    </string-array>
+
+
+</resources>

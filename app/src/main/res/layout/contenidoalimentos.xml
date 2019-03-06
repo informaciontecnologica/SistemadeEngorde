@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="6dip"
+
+        android:contentDescription="TODO"
+        android:text="feed" />
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/feed"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="1dp"
+
+        android:layout_toEndOf="@+id/feed"
+        android:text="descripcion" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feed"
+        android:layout_alignStart="@+id/feed"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="14dp"
+        android:text="CP : " />
+
+    <TextView
+        android:id="@+id/CP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toEndOf="@+id/textView13"
+        android:text="CP"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feed"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="13dp"
+        android:text="NEm : " />
+
+    <TextView
+        android:id="@+id/NEm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_marginStart="9dp"
+
+        android:layout_toEndOf="@+id/textView15"
+        android:text="NEm : "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/NEm"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="0dp"
+        android:text="NEg :" />
+
+    <TextView
+        android:id="@+id/NEg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="0dp"
+        android:text="NEg :"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>
