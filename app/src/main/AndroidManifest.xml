@@ -24,7 +24,8 @@
         <activity android:name=".enviar" />
         <activity android:name=".item_listPersonas" />
         <activity android:name=".Seleccion_alimentos" />
-        <activity android:name=".balanceoalimentos" />
+        <activity android:name=".balanceoalimentos"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
